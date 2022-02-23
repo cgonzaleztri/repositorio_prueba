@@ -1,0 +1,19 @@
+---
+title: "Pancho_Sirius"
+author: "Juan_Hernandez_Villena"
+date: "2/23/2022"
+output: html_document
+---
+
+```{r}
+data("airquality")
+```
+
+```{r}
+names(airquality)
+```
+
+```{r}
+mean(airquality$Ozone)
+```
+Tiene un NA por lo que damos por terminado el analisis.
